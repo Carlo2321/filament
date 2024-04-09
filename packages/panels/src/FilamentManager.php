@@ -485,7 +485,7 @@ class FilamentManager
             return $user->getFilamentName();
         }
 
-        return $user->getAttributeValue('name');
+        return $user->getAttributeValue('userName');
     }
 
     /**
